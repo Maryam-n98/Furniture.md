@@ -1,0 +1,2 @@
+var favouritestyle= prompt("what do you love classic or unique furniture?");
+if(favouritestyle=='classic'){document.write('<img src="pic/classicf.jpg"/>');}else if(favouritestyle=='unique'){document.write('<img src="pic/unique.jpg"/>');}
