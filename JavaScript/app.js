@@ -9,19 +9,20 @@ if (favouritestyle=='classic'){
 else if(favouritestyle=='unique'){
     document.write('<img src="pic/unique.jpg"/>');
 }
+}
+getfavouritestyle(favouritestyle);
 
 var age=prompt("How old are you?");
-function getAge(userAge)
-
-if(userAge>=20 && userAge<=50){
+function getAge(userAge){
+if (userAge >=20 && userAge<=50){
     alert('Enjoy in our world ');
-}else if(userAge<20|| userAge>50){
+  }else if(userAge<20|| userAge>50){
     alert('Go to this and enjoy "https://www.cartoonnetworkhq.com/games"');
-} else{
+  } else{
     alert('please input a number');
+  }
 }
-}
-
+getAge(age);
 var enjoy=prompt(' did you enjoy in our website?');
 
 if(enjoy =='yes') {
@@ -45,5 +46,4 @@ var number=1;
  for (var i= 0; i< stars; i++){
      document.write(star + number);
      number++
-
  }
