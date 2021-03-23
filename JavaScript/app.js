@@ -47,3 +47,4 @@ var number=1;
      document.write(star + number);
      number++
  }
+
